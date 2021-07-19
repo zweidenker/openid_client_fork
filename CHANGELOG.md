@@ -2,6 +2,7 @@
 
 ## 0.5.0
 - Initial Release of openid_client_fork
+- Allow External Code Validation
 
 ## 0.4.1
 
