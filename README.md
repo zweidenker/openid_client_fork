@@ -1,6 +1,12 @@
 # openid_client
 
-[![Build Status](https://travis-ci.org/appsup-dart/openid_client.svg?branch=master)](https://travis-ci.org/appsup-dart/openid_client)
+![example workflow](https://github.com/abausg/openid_client_fork/actions/workflows/main.yml/badge.svg)
+
+## ⚠ fork
+
+This is a fork of [openid_client](https://github.com/appsup-dart/openid_client) addressing features needed for [apptive_grid_core](https://pub.dev/packages/apptive_grid_core)
+
+---
 
 Library for working with OpenID Connect and implementing clients.
 
@@ -25,7 +31,7 @@ for Facebook, which is predefined in the library.
 A simple usage example:
 
 ```dart
-import 'package:openid_client/openid_client.dart';
+import 'package:openid_client_fork/openid_client.dart';
 
 main() async {
 
@@ -81,7 +87,7 @@ main() async {
 
 ```dart
 // import the io version
-import 'package:openid_client/openid_client_io.dart';
+import 'package:openid_client_fork/openid_client_io.dart';
 // use url launcher package 
 import 'package:url_launcher/url_launcher.dart';
 
@@ -121,7 +127,7 @@ authenticate(Uri uri, String clientId, List<String> scopes) async {
 
 ```dart
 // import the io version
-import 'package:openid_client/openid_client_io.dart';
+import 'package:openid_client_fork/openid_client_io.dart';
 
 authenticate(Uri uri, String clientId, List<String> scopes) async {   
     
@@ -146,7 +152,7 @@ authenticate(Uri uri, String clientId, List<String> scopes) async {
 
 ```dart
 // import the browser version
-import 'package:openid_client/openid_client_browser.dart';
+import 'package:openid_client_fork/openid_client_browser.dart';
 
 authenticate(Uri uri, String clientId, List<String> scopes) async {   
     

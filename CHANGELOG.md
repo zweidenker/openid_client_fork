@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.5.0
+- Initial Release of openid_client_fork
+
 ## 0.4.1
 
 - Bugfixes
