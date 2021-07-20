@@ -1,6 +1,6 @@
 # openid_client
 
-![example workflow](https://github.com/abausg/openid_client_fork/actions/workflows/main.yml/badge.svg)
+![example workflow](https://github.com/zweidenker/openid_client_fork/actions/workflows/main.yml/badge.svg)
 
 ## ⚠ fork
 
